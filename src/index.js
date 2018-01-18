@@ -8,6 +8,7 @@
 const factorialWithCache = (function () {
   const cache = {};
   return (n) => {
+    if (n <= 0) { throw new Error('factorial s argv should be greater than 0'); }
     if (cache[n]) { return cache[n]; }
     if (n === 1) { return 1; }
     let total = 1;
@@ -29,7 +30,7 @@ const factorialWithCache = (function () {
  * @param {*} n 
  */
 const factorial = (n, total = 1) => {
-  if (n <= 0) { throw new Error('factorial s argv should be positive Int.'); }
+  if (n <= 0) { throw new Error('factorial s argv should be greater than 0'); }
   if (n === 1) {
     return total;
   }
