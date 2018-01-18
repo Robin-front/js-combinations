@@ -1,13 +1,20 @@
 {
-  "name": "combinations-js",
+  "name": "js-combinations",
   "version": "1.0.0",
-  "description": "Describe combinations-js here",
+  "description": "n choose k for js",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
     "es",
     "lib",
     "umd"
+  ],
+  "keywords": [
+    "combinations",
+    "math",
+    "combinations-js",
+    "node",
+    "es6"
   ],
   "scripts": {
     "build": "nwb build-web-module",
@@ -16,13 +23,12 @@
     "test:coverage": "nwb test --coverage",
     "test:watch": "nwb test --server"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "nwb": "0.21.x"
   },
-  "author": "",
-  "homepage": "",
+  "author": "robin <lb.robin1991@gmail.com>",
+  "homepage": "https://github.com/Robin-front/js-combinations",
   "license": "MIT",
-  "repository": ""
+  "repository": "https://github.com/Robin-front/js-combinations.git"
 }
