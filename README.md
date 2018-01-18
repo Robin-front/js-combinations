@@ -21,7 +21,7 @@ yarn add js-combinations
 // or
 npm install js-combinations --save
 ```
-## useage
+## usage
 
 ```js
 import combinations from 'js-combinations';
@@ -41,11 +41,11 @@ import { combinationsWithoutCache } from 'js-combinations'
 // ... what you want to do
 ```
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
+[build-badge]: https://img.shields.io/travis/Robin-front/js-combinations/master.png?style=flat-square
 [build]: https://travis-ci.org/Robin-front/js-combinations
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
 [npm]: https://www.npmjs.org/package/npm-package
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
+[coveralls-badge]: https://img.shields.io/coveralls/Robin-front/js-combinations/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/Robin-front/js-combinations

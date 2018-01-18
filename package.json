@@ -1,6 +1,6 @@
 {
   "name": "js-combinations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "n choose k for js",
   "main": "lib/index.js",
   "module": "es/index.js",
